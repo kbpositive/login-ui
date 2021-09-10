@@ -2,6 +2,7 @@ function InputField(props) {
     return (
         <div className='inputField'>
             <input
+                class='text-center bg-transparent'
                 className='input'
                 type={props.type}
                 placeholder={props.placeholder}
