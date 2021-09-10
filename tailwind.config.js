@@ -17,6 +17,14 @@ module.exports = {
             colors: {
                 'custom-blue-tue': '#ACCDE7',
                 'custom-blue': '#BAD6EB',
+            },
+            keyframes: {
+                wiggle: {
+                    "0%, 100%": { transitionShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)' }
+                }
+            },
+            animation: {
+                wiggle: "wiggle 200ms ease-in-out"
             }
         },
     },
