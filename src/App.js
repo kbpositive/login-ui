@@ -17,7 +17,7 @@ function App() {
     <div class="bg-blue-900 bg-opacity-50 flex h-screen">
       <div class="mix-blend-overlay m-auto p-5 rounded-full shadow-outter">
         <p class="mix-blend-overlay text-gray-100 text-center p-1">login</p>
-        <div class="text-gray-100 mix-blend-overlay bg-gray-500 bg-opacity-50 flex shadow-inner font-sans rounded-3xl m-3 p-3 justify-center">
+        <div class="text-gray-100">
           <InputField
             type='text'
             placeholder="Username"
@@ -25,7 +25,7 @@ function App() {
             onChange={(username) => setInputValue(setUsername, username)}
           />
         </div>
-        <div class="mix-blend-overlay bg-gray-500 bg-opacity-50 flex shadow-inner font-sans rounded-3xl m-3 p-3 justify-center">
+        <div class="">
           <InputField
             type='password'
             placeholder="Password"
