@@ -14,9 +14,9 @@ function App() {
   }
 
   return (
-    <div class="bg-blue-900 bg-opacity-50 flex h-screen">
+    <div class="bg-yellow-900 bg-opacity-50 flex h-screen">
       <div class="mix-blend-overlay m-auto p-5 rounded-full shadow-outter">
-        <p class="mix-blend-overlay text-gray-100 text-center p-1">login</p>
+        <p class="text-xl underline mix-blend-overlay text-gray-100 text-center p-1">login</p>
         <div class="text-gray-100 class='placeholder-gray-100 text-center mix-blend-overlay bg-gray-500 bg-opacity-50 flex shadow-inner font-sans rounded-3xl m-3 p-3 justify-center'">
           <InputField
             type='text'
